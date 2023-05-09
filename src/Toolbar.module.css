@@ -1,0 +1,90 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.inlineStyleButtons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.inlineStyleButton {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+}
+
+.inlineStyleButton:hover {
+  background-color: #eee;
+}
+
+.inlineStyleButton:focus-visible {
+  outline: 1px solid blue;
+}
+
+.inlineStyleButton:disabled {
+  opacity: 0.5;
+}
+
+.inlineStyleButton[aria-pressed="true"] {
+  background-color: #181717;
+  border-color: #181717;
+  color: #eee;
+}
+
+.inlineStyleButton[aria-pressed="true"]:hover {
+  background-color: #393838;
+  border-color: #393838;
+  color: #eee;
+}
+
+.blockTypeButtons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.blockTypeButton {
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+}
+
+.blockTypeButton:hover {
+  background-color: #eee;
+}
+
+.blockTypeButton:focus-visible {
+  outline: 1px solid blue;
+}
+
+.blockTypeButton:disabled {
+  opacity: 0.5;
+}
+
+.blockTypeButton[aria-pressed="true"] {
+  background-color: #181717;
+  border-color: #181717;
+  color: #eee;
+}
+
+.blockTypeButton[aria-pressed="true"]:hover {
+  background-color: #393838;
+  border-color: #393838;
+  color: #eee;
+}
