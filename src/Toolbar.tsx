@@ -8,16 +8,16 @@ import styles from "./Toolbar.module.css";
 
 type Props = {
   boldIsActive: boolean;
-  boldIsDisabled: boolean;
+  boldIsDisabled?: boolean;
   onClickBoldButton: () => void;
   italicIsActive: boolean;
-  italicIsDisabled: boolean;
+  italicIsDisabled?: boolean;
   onClickItalicButton: () => void;
   underlineIsActive: boolean;
-  underlineIsDisabled: boolean;
+  underlineIsDisabled?: boolean;
   onClickUnderlineButton: () => void;
   strikethroughIsActive: boolean;
-  strikethroughIsDisabled: boolean;
+  strikethroughIsDisabled?: boolean;
   onClickStrikethroughButton: () => void;
 
   h1IsActive: boolean;
